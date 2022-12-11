@@ -1,0 +1,1 @@
+// Allocate memory for 500 integers using calloc & then store first 500 natural numbers in that space

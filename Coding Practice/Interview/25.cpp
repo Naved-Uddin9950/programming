@@ -1,0 +1,1 @@
+// Write a program to remove blank spaces in a string

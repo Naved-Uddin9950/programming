@@ -1,0 +1,47 @@
+body{
+    font-family: fantasy;
+    background-image: url("../img/acnologia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul{
+    margin-left: -40px;
+    list-style-type: none;;
+}
+
+li{
+    padding-top: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.form-container{
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(12, 53, 105, 0.726);
+    margin: 5% 25% 5% 25%;
+    padding: 30px 0px 20px 0px;
+    width: 60vw;
+    height: 80vh;
+    color: rgb(2, 19, 34);
+}
+
+input{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: black;
+}
+
+button{
+    font-size: 18px;
+    font-family: fantasy;
+    margin: 10px 5px 0px 5px;
+    background-color: rgba(22, 90, 179, 0.884);
+    color: rgba(240, 248, 255, 0.377);
+}

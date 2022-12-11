@@ -1,0 +1,1 @@
+// Search & find out which is better malloc( ) or calloc ( )

@@ -1,0 +1,1 @@
+// Search about what is a 'dangling pointer' in C

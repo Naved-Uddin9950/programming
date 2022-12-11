@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hello</title>
+</head>
+<body>
+	<button id="btn" onclick="newFunc()">Click Me</button>
+
+	<script type="text/javascript">
+		var a = 0;
+		document.getElementById("btn").innerHTML = a;
+		function newFunc(){
+			// document.getElementById("btn").style.color = "blue";
+			a += 1;
+			document.getElementById("btn").innerHTML = a;
+		}
+	</script>
+</body>
+</html>

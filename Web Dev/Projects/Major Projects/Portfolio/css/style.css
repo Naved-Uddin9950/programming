@@ -1,0 +1,282 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #212121;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-container a:hover{
+    color: #FF2400;
+    background-color: chartreuse;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-container{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    border: 2px solid rgb(61, 49, 167);
+}
+
+.nav-container ul li{
+    display: inline;
+    padding: 0% 10px 0% 10px;
+    background-color: rgb(71, 15, 201);
+    float: left;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+.main-slideshow{
+    border: 5px solid rgb(84, 14, 141);
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-slideshow img{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.about-container, .service-container, .contact-container, .footer-main{
+    border: 5px solid rgb(84, 14, 141);
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.about-container h1, .service-container h1, .contact-container h1{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.about-me h1, h2{
+    font-family: cursive;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid blueviolet;
+    border-radius: 45%;
+    overflow-wrap: break-word;
+}
+
+.services h1, h2{
+    font-family: cursive;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid blueviolet;
+    border-radius: 45%;
+    overflow-wrap: break-word;
+}
+
+.contact-main h1, h2{
+    font-family: cursive;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid blueviolet;
+    border-radius: 45%;
+    overflow-wrap: break-word;
+}
+
+#about-me{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0px;
+    padding: 0px;
+    color: cornflowerblue;
+}
+
+#about-me img{
+    width: 50%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#about-me ul li{
+    margin: 5px 10px 25px 0px;
+    padding: 0px;
+}
+
+.about-me{
+    margin: 10px 5px 10px 5px;
+    padding: 0px;
+}
+
+.personal-det{
+    color: chartreuse;
+}
+
+.about-me fieldset{
+    color: rgb(240, 255, 25);
+    background-color: rgb(65, 20, 124);
+}
+
+.about-me fieldset ul li{
+    margin: 10px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex img{
+    width: 29.3vw;;
+}
+
+.flex li{
+    margin: 10px;
+}
+
+.flex button:hover{
+    background-color: cornflowerblue;
+}
+
+li button{
+    margin-left: 40%;
+    margin-right: 40%;
+    width:fit-content;
+    font-size: 3.33;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+}
+
+.grid li{
+    margin: 0px 0px 10px 0px;
+}
+
+.grid{
+    border: 3px solid rgb(65, 20, 124);
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.head{
+    color: chartreuse;
+    border-bottom: 5px rgb(187, 30, 70) solid;
+}
+
+.my-links{
+    color: rgb(215, 233, 58);
+}
+
+.contact-main li{
+    margin-bottom: 10px;
+    color: chartreuse;
+}
+
+.my-info-txt{
+    color: #FF2400; /* --- Scarlet color code --- */
+}
+
+.contact-form{
+    margin: 10px;
+}
+
+.contact-form fieldset{
+    color: rgb(240, 255, 25);
+    background-color: rgb(65, 20, 124);
+}
+
+.contact-form fieldset ul li{
+    margin: 10px;
+}
+
+.contact-form button{
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 6vw;
+    height: 2.4vw;
+    font-weight: bold;
+}
+
+.contact-form button:hover{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+footer h1{
+    color: cornflowerblue;
+}
+
+.footer-main{
+    margin-bottom: 200px;
+}
+
+#code{
+    color: coral;
+    margin-bottom: 100px;
+}
+
+.copy{
+    border: 2px solid rgb(61, 49, 167);
+    margin-top: 50px;
+    padding: 0px;
+    text-align: center;
+    font-size: 1.33vw;
+    background-color: blueviolet;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+#top-button{
+    border: none;
+    background-color: #ffffff00;
+    width: 100%;
+    float: right;
+    margin-bottom: 60px;
+    float: right;
+}
+
+#top-button button{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    float: right;
+}
+
+#top-button button:hover{
+    background-color: chartreuse;
+}
+
+button:hover{
+    cursor: pointer;
+}

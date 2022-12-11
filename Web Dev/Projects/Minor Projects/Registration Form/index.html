@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <!-- Main Form -->
+    <div class="form-container">
+        <form>
+            <div class="input-container">
+                <label for="fname">First Name*</label>
+                <input type="text" placeholder="Acnologia" id="fname" required>
+            </div>
+            <div class="input-container">
+                <label for="lname">Last Name*</label>
+                <input type="text" placeholder="Dark Dragon" id="lname" required>
+            </div>
+            <div class="input-container">
+                <label for="userName">Username*</label>
+                <input type="text" placeholder="Acnologia400" id="userName" required>
+            </div>
+            <div class="input-container">
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="acnologia400@gmail.com" required style="margin-left: 40px;">
+            </div>
+            <div class="input-container">
+                <label for="phone" style="margin-left: 60px;">Whatsapp</label>
+                <input type="number" placeholder="+91" minlength="1" maxlength="3" min="1" max="99" style="margin-left: 10px;">
+                <input type="number" placeholder="99XXXXXXXX" id="phone" minlength="10" maxlength="10">
+            </div>
+            <div class="input-container">
+                <label for="Pwd">Password*</label>
+                <input type="password" id="pwd" required>
+            </div>
+            <div class="input-container">
+                <label for="dob">Date Of Birth*</label>
+                <input type="date" id="dob" required style="width: 210px;">
+            </div>
+            <div class="input-container">
+                <label for="college">College</label>
+                <input type="text" id="college" placeholder="Alvarez University Of Dragons" style="margin-left: 23px;">
+            </div>
+            <div class="input-container">
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="Magnolia" style="margin-left: 57px;">
+            </div>
+            <div class="input-container">
+                <label for="state">State</label>
+                <input type="text" id="state" placeholder="Fiore" style="margin-left: 45px;">
+            </div>
+            <div class="input-container">
+                <label for="country">Country</label>
+                <input type="text" id="country" placeholder="Alvarez Empire" style="margin-left: 20px;">
+            </div>
+            <div class="input-container">
+                <label for="cv" style="margin-left: 160px;">Resume</label>
+                <input type="file" id="cv">
+            </div>
+            <div class="input-container">
+                <label for="gen">Male</label>
+                <input type="radio" name="gender" id="gen" value="male">
+                <label for="gen">Female</label>
+                <input type="radio" name="gender" id="gen" value="female">
+            </div>
+            <div class="btn-container">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

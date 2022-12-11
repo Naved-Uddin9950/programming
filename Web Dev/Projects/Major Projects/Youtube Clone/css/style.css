@@ -1,0 +1,89 @@
+/* Main Header - Menu, Youtube logo, Search bar etc. */
+#main-header{
+    display: flex;
+}
+
+/* Header Menu icon*/
+#menu-icon img{
+    height: 1vw;
+}
+
+/* Header Menu Button */
+#menu-icon{
+    padding-top: 0.8vw;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;   
+}
+
+/* Youtube logo */
+#yt-logo img{
+    height: 3.4vw;
+}
+
+/* Search bar --- Internal Area*/
+#search{
+    height: 3vw;
+    width: 45vw;
+    font-size: 1.25vw;
+}
+
+/* Search bar --- External Area */
+.search-bar{
+    /* padding-top: 0.546875vw; */
+    padding-left: 7.8125vw;
+}
+
+/* Search submit button --- Internal Area*/
+#search-submit-icon{
+    height: 1.40625vw;
+    /* margin: 0.46875vw; */
+}
+
+/* Search submit button --- External Area*/
+/* #search-submit-btn{
+    margin-top: 0.546875vw;
+} */
+
+/* Voice Search --- Internal */
+#voice-search-icon{
+    height: 1.40625vw; /* 18px */
+    margin: 0.46875vw; /* 6px */
+}
+
+/* Voice Search --- External */
+#voice-search-btn{
+    padding-top: 0.546875vw;
+}
+
+/* Top side menu --- Create video, Notifications, User account */
+.top-side-menu{
+    margin-left: 11vw; /* 180px */
+    margin-top: 0.625vw;
+    height: 1.171875vw;
+}
+
+.top-side-menu img{
+    height: 1.171875vw;
+}
+
+#user-icon{
+    border: none;
+}
+
+#user-icon img{
+    height: 3.125vw;
+}
+
+#create-video-icon{
+    border: none;
+    margin-right: 1.171875vw;
+}
+
+#bell-icon{
+    border: none;
+    margin-right: 1.171875vw;
+}
+
+#bell-icon img{
+    height: 1.5625vw;
+}

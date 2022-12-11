@@ -1,0 +1,1 @@
+// In an array of numbers, find how many times does a number 'x' occurs
