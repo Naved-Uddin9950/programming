@@ -1,0 +1,353 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+	background-color: rgb(255, 255, 255);
+}
+
+/* Header starts here */
+/* Topbar starts here */
+
+.topbar-container{
+	padding-top: 16px;
+	display: flex;
+	flex-direction: row;
+	width: 1263px !important;
+	height: 48px !important;
+}
+
+#logo{
+	padding: 0px 16px;
+	width: 100px;
+	height: 64px;
+}
+
+#user{
+	padding: 0px 16px;
+	font-size: 28px;
+	width: 100px;
+	height: 64px;
+}
+
+#user a{
+	display: flex;
+	align-content: middle;
+	color: black;
+	text-decoration: none;
+	curser: pointer;
+}
+
+#user a span{
+	text-align: center;
+	margin: 5px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#user:hover{
+	height: 35px;
+	border-bottom: 2px solid #0071F1;
+}
+
+.topbar{
+	padding: 0px 16px;
+	display: flex;
+	flex-direction: row;
+}
+
+.topbar-items-container{
+	font-size: 13px;
+	font-weight: bold;
+	display: flex;
+	padding-top: 7px;
+	list-style: none;
+	width: 785px;
+	height: 64px;
+	margin: 0px 0px 0px 8px;
+	justify-content: space-evenly;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+#home:hover{
+	border-bottom: 2px solid #000000;
+	height: 28px;
+	cursor: pointer;
+}
+
+#news:hover{
+	border-bottom: 2px solid #EB1212;
+	height: 28px;
+	cursor: pointer;
+}
+
+#sport:hover{
+	border-bottom: 2px solid #FFD230;
+	height: 28px;
+	cursor: pointer;
+}
+
+#reel:hover{
+	border-bottom: 2px solid #0068FF;
+	height: 28px;
+	cursor: pointer;
+}
+
+#worklife:hover{
+	border-bottom: 2px solid #0052A1;
+	height: 28px;
+	cursor: pointer;
+}
+
+#travel:hover{
+	border-bottom: 2px solid #589E50;
+	height: 28px;
+	cursor: pointer;
+}
+
+#future:hover{
+	border-bottom: 2px solid #002856;
+	height: 28px;
+	cursor: pointer;
+}
+
+#more:hover{
+	border-bottom: 2px solid #000000;
+	height: 28px;
+	cursor: pointer;
+}
+
+.search-container{
+	display: flex;
+	flex-direction: row;
+	height: 28px;
+}
+
+#searchbar{
+	font-size: 13px;
+	font-weight: bold;
+	padding: auto;
+	margin-left: 5px;
+	border: none;
+}
+
+#searchbar::placeholder{
+	color: black;
+}
+
+.search-container label{
+	padding-top: 6px;
+}
+
+/* Topbar ends here */
+/* Hidden Menu starts here */
+
+#hidden-menu-container{
+	width: 97.5vw;
+	height: 64px;
+	float: left;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0px 16px;
+	display: none;
+	animation: dropDown 3s forwards;
+	margin-bottom: 40px;
+	background-color: white;
+	border: 1px solid black;
+	border-bottom: 2px solid black;
+}
+
+@keyframes dropDown {
+    from {
+    	top: 0px;
+    }
+    to {
+    	top: 200px;
+    }
+}
+
+#hidden-menu{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 16px;
+	position: relative;
+	background-color: rgb(255, 255, 255);
+}
+
+.hidden-menu-items{
+	padding: 8px 36px 0px 2px;
+	color: black;
+	height: 28px;
+}
+
+#culture:hover{
+	border-bottom: 2px solid #482878;
+	height: 28px;
+	cursor: pointer;
+}
+
+#music:hover{
+	border-bottom: 2px solid #141414;
+	height: 28px;
+	cursor: pointer;
+}
+
+#tv:hover{
+	border-bottom: 2px solid #141414;
+	height: 28px;
+	cursor: pointer;
+}
+
+#weather:hover{
+	border-bottom: 2px solid #149EDC;
+	height: 28px;
+	cursor: pointer;
+}
+
+#sounds:hover{
+	border-bottom: 2px solid #FA6400;
+	height: 28px;
+	cursor: pointer;
+}
+
+#close-btn{
+	width: 66vw;
+}
+
+#close-btn button{
+	padding: 6px 10px;
+	font-size: 22px;
+	border: none;
+	float: right;
+	cursor: pointer;
+}
+
+#close-btn button:hover{
+	background-color: #0064E6;
+	color: rgb(255, 255, 255);
+}
+
+/* Hidden Menu ends here */
+/* Navbar starts here */
+
+.navbar-container{
+	background-color: rgb(184, 0, 0);
+}
+
+#news-text{
+	padding: 0px 16px;
+	border-bottom: 1px solid white;
+}
+
+#news-text h2{
+	padding: 18px 0px;
+	font-size: 38px;
+	font-weight: 600;
+	color: white;
+	line-height: 18px;
+}
+
+.navbar-items-container{
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.navbar-list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none;
+	font-size: 16px;
+	padding: 0px 16px;
+	line-height: 22px;
+}
+
+.navbar-list-items{
+	border-right: 1px solid #DB7F7F;
+	font-size: 16px;
+	font-weight: 400;
+	vertical-align: baseline;
+	padding: 8px 8px;
+	cursor: pointer;
+}
+
+.navbar-list-items a{
+	color: white;
+}
+
+.navbar-list-items:hover{
+	border-bottom: 3px solid white;
+}
+
+.tech{
+	border: none;
+}
+
+.more{
+	border-right: none;
+	float: right;
+    text-align: right;
+    width: 42vw;
+    cursor: default;
+}
+
+.more:hover{
+	border: none;
+}
+
+.more button{
+	border: none;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 16px;
+	color: white;
+	border-left: 1px solid #DB7F7F;
+	padding-left: 10px;
+}
+
+.more button:hover{
+	border-bottom: 3px solid white;
+	cursor: pointer;
+}
+
+/* Navbar ends here */
+/* More Menu starts here */
+
+#grid-container{
+	width: 97vw;
+	display: none;
+	grid-template-columns: auto auto auto auto auto;
+	padding: 8px;
+	border-bottom: 4px solid rgb(184, 0, 0);
+	padding-bottom: 20px;
+}
+
+.grid-item{
+	border-left: 1px solid black;
+	padding: 10px;
+	font-size: 16px;
+	text-align: left;
+}
+
+.grid-item:hover, .active-grid{
+	border-left: 4px solid rgb(184, 0, 0);
+}
+
+/*More Menu ends here*/
+/* Header ends here */
+/* Main starts here */
+
+
+
+/*Main ends here*/

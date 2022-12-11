@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oldest DNA reveals two-million-year-old lost world - BBC News</title>
+    <script src="https://kit.fontawesome.com/8e0a766b60.js" crossorigin="anonymous"></script> <!-- font awesome -->
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header starts here -->
+    <header>
+        <!-- Topbar starts here -->
+        <div class="topbar-container">
+            <div id="logo">
+                <a href="https://www.bbc.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/1000px-BBC_Logo_2021.svg.png" alt="Image: BBC News Logo" width="112" height="32"></a>
+            </div>
+            <div id="user">
+                <a href="https://account.bbc.com/signin?realm=%2F&clientId=Account&lang=en-GB&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fscience-environment-63867164&isCasso=false&action=sign-in&redirectUri=https%3A%2F%2Fsession.bbc.com%2Fsession%2Fcallback%3Frealm%3D%2F&service=IdSignInService&nonce=UNWp4vre-xhJVQGs8UqjzMjTx8kssdnBIJJM">
+                    <i class="fas fa-user" height="28px" width="28px"></i>
+                    <span>Sign in</span>
+                </a>
+            </div>
+            <div class="topbar">
+                <ul class="topbar-items-container">
+                    <li class="topbar-items" id="home"><a href="https://www.bbc.com/">Home</a></li>
+                    <li class="topbar-items" id="news"><a href="https://www.bbc.com/news">News</a></li>
+                    <li class="topbar-items" id="sport"><a href="https://www.bbc.com/sport">Sport</a></li>
+                    <li class="topbar-items" id="reel"><a href="https://www.bbc.com/reel">Reel</a></li>
+                    <li class="topbar-items" id="worklife"><a href="https://www.bbc.com/worklife">Worklife</a></li>
+                    <li class="topbar-items" id="travel"><a href="https://www.bbc.com/travel">Travel</a></li>
+                    <li class="topbar-items" id="future"><a href="https://www.bbc.com/future">Future</a></li>
+                    <li class="topbar-items" id="more" onclick="hiddenMenu();"><img src="https://www.shareicon.net/data/512x512/2015/10/17/657534_shapes_512x512.png" height="18px"></li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <label for="searchbar"><i class="fas fa-search"></i></label>
+                <input type="text" name="searchbar" id="searchbar" placeholder="Search BBC">
+            </div>
+        </div>
+        <!-- Topbar ends here -->
+        <!-- Hidden menu starts here -->
+        <div id="hidden-menu-container">
+            <ul id="hidden-menu">
+                <li class="hidden-menu-items" id="culture"> <a href="https://www.bbc.com/culture">Culture</a></li>
+                <li class="hidden-menu-items" id="music"><a href="https://www.bbc.com/culture/music">Music</a></li>
+                <li class="hidden-menu-items" id="tv"><a href="https://www.bbc.co.uk/schedules/p00fzl9m"></a>TV</li>
+                <li class="hidden-menu-items" id="weather"><a href="https://www.bbc.com/weather">Weather</a></li>
+                <li class="hidden-menu-items" id="sounds"><a href="https://www.bbc.co.uk/sounds">Sounds</a></li>
+            </ul>
+            <div id="close-btn">
+                <button onclick="closeHiddenMenu();">X</button>
+            </div>
+        </div>
+        <!-- Hidden menu ends here -->
+        <!-- Navbar starts here -->
+        <div class="navbar-container">
+            <div id="news-text">
+                <h2>NEWS</h2>
+            </div>
+            <div class="navbar-items-container">
+                <ul class="navbar-list">
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news">Home</a></li>
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news/world-60525350">War in Ukraine</a></li>
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news/coronavirus">Coronavirus</a></li>
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news/science-environment-56837908">Climate</a></li>
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news/av/10462520">Video</a></li>
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news/world">World</a></li>
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news/world/asia">Asia</a></li>
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news/uk">UK</a></li>
+                    <li class="navbar-list-items"><a href="https://www.bbc.com/news/business">Business</a></li>
+                    <li class="navbar-list-items tech"><a href="https://www.bbc.com/news/technology">Tech</a></li>
+                    <li class="navbar-list-items more"><button onclick="moreMenu();" id="moreMenuBtn"><i class="fas fa-bars"></i> More</button></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Navbar ends here -->
+        <!-- More Menu starts here -->
+        <div id="grid-container">
+            <div id="grid-item active-grid"><a href="https://www.bbc.com/news/science_and_environment">Science</a></div>
+            <div class="grid-item"><a href="https://www.bbc.com/news/entertainment_and_arts">Entertainment & Arts</a></div>
+            <div class="grid-item"><a href="https://www.bbc.com/news/world_radio_and_tv">World News TV</a></div>
+            <div class="grid-item"><a href="https://www.bbc.com/news/reality_check">Reality Check</a></div>
+            <div class="grid-item"><a href="https://www.bbc.com/news/the_reporters">Long Reads</a></div>
+            <div class="grid-item"><a href="https://www.bbc.com/news/stories">Stories</a></div>
+            <div class="grid-item"><a href="https://www.bbc.com/news/health">Health</a></div>
+            <div class="grid-item"><a href="https://www.bbc.com/news/in_pictures">In Pictures</a></div>
+            <div class="grid-item"><a href="https://www.bbc.com/news/newsbeat">Newsbeat</a></div>
+        </div>
+        <!-- More Menu ends here -->
+    </header>
+    <!-- Header ends here -->
+    <!-- Main starts here -->
+    <main>
+        
+    </main>
+
+    <!-- Main ends here -->
+
+    <script type="text/javascript" src="script/index.js"></script>
+</body>
+</html>
