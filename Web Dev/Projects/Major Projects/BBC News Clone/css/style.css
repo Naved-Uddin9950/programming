@@ -3,6 +3,11 @@
 	margin: 0;
 }
 
+html, body { /* Hides horizontal scrollbar on the page and sets page's maximum width to 100% of the device width */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
 	font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
 	background-color: rgb(255, 255, 255);
@@ -348,6 +353,474 @@ a{
 /* Header ends here */
 /* Main starts here */
 
+/* Section --- Science starts here */
+
+.science{
+	font-size: 16px;
+	padding: 8px 0px;
+	line-height: 22px;
+}
+
+.science a{
+	text-decoration: none;
+	color: black;
+	padding: 0px 7.2px;
+	border-bottom: 4px solid rgb(184, 0, 0);
+	margin-left: 7.2px;
+	font-weight: 400;
+	padding-bottom: 7.2px;
+}
+
+/* Section --- Science ends here */
+/* Main container starts here */
+
+.main-container{
+	padding: 0px 16px;
+	line-height: 16px;
+	box-sizing: border-box;
+	vertical-align: baseline;
+	margin-top: 35px;
+}
+
+/* Main container ends here */
+/* Section --- Main starts here */
+
+.main{
+	width: 62.5vw;
+/*	left: 0;*/
+	float: left;
+	position: absolute;
+}
+
+.main h1{
+	font-size: 44px;
+	font-weight: 500;
+	line-height: 48px;
+}
+
+.posting-time{
+	font-size: 13px;
+	font-weight: 400;
+	color: rgb(84, 86, 88);
+	text-align: left;
+	vertical-align: baseline;
+	margin: 15px 0px;
+}
+
+.share{
+	margin: 16px 0px 0px;
+	color: rgb(20, 20, 20);
+	display: flex;
+	line-height: 22px;
+	vertical-align: baseline;
+}
+
+.share button{
+	align-items: center;
+	background-color: rgb(235, 0, 0);
+	border: 2px solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	cursor: pointer;
+	line-height: 24.75px;
+	min-height: 44px;
+	padding: 0px 15px;
+	text-align: center;
+	writing-mode: horizontal-tb !important;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+}
+
+.share-me{
+	width: 200.16px;
+	height: 122px;
+	border: 1px solid black;
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(20, 20, 20);
+	line-height: 22px;
+	background-color: white;
+	display: none;
+}
+
+.share-links{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	vertical-align: baseline;
+	padding: 12px;
+}
+
+#copy-btn{
+	text-decoration: none;
+	align-items: center;
+	background-color: rgb(235, 0, 0);
+	color: white;
+	border: 2px solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	display: flex;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24.75px;
+	min-height: 44px;
+	padding: 6px 10px;
+	width: 132.156px;
+	cursor: pointer;
+}
+
+#copy-btn:hover{
+	background-color: #B80000;
+}
+
+#about-sharing{
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	margin-top: 8px;
+	padding: 12px 0px;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	color: black;
+	text-decoration: underline;
+	vertical-align: baseline;
+}
+
+#about-sharing:hover{
+	color: rgb(235, 0, 0);
+}
+
+.close-share-btn{
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	float: right;
+	box-sizing: border-box;
+	line-height: 24.75px;
+	min-height: 44px;
+}
+
+#closeShareBtn{
+	border: 1px solid rgba(0, 0, 0, 0);
+	font-size: 20px;
+	font-weight: 700;
+	cursor: pointer;
+	float: right;
+	padding: 6px 10px;
+}
+
+#closeShareBtn:hover{
+	background-color: #B80000;
+	color: white;
+}
+
+.point-share{
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 14px solid #B80000;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: none;
+}
+
+.main-images{
+/*	position: relative;*/
+	margin-top: 40px;
+	width: 67.5vw;
+	height: 100vh;
+	background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/80EE/production/_127960033_jades-nc.png.webp');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.BBCAmos{
+	margin: 24px 0px;
+	display: flex;
+	color: rgb(20, 20, 20);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	max-width: 800px;
+	vertical-align: baseline;
+	color: rgb(84, 86, 88);
+}
+
+.BBCAmos img{
+	width: 80px;
+	height: 80px;
+	line-height: 22px;
+/*	float: left;*/
+}
+
+#byJonathanAmos{
+	margin-bottom: 0px 0px 4px;
+	color: rgb(134, 0, 0);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	text-decoration: none;
+}
+
+#byJonathanAmos:hover{
+	border-bottom: 2px solid rgb(134, 0, 0);
+}
+
+#bbcScienceCorrespondent{
+	margin: 0px 0px 4px;
+	color: #545658;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+#bbcAmos{
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #B80000;
+	text-decoration: none;
+}
+
+#bbcAmos:hover{
+	border-bottom: 2px solid rgb(134, 0, 0);
+}
+
+#BBCAmosPara{
+	margin-top: 15px;
+}
+
+.boldText{
+	color: rgb(20, 20, 20);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	overflow-wrap: break-word;
+	text-size-adjust: 100%;
+	vertical-align: baseline;
+	width: 72%;
+	text-align: justify;
+}
+
+.normalText{
+	color: rgb(20, 20, 20);
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	overflow-wrap: break-word;
+	vertical-align: baseline;
+	text-size-adjust: 100%;
+	margin: 16px 0px;
+	text-align: justify;
+	width: 72%;
+}
+
+.importantText{
+	color: rgb(20, 20, 20);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	overflow-wrap: break-word;
+	text-size-adjust: 100%;
+	vertical-align: baseline;
+	text-decoration: underline;
+}
+
+.redirectLink:hover{
+	text-decoration: none;
+	color: #B80000;
+	border-bottom: 2px solid #B80000;
+}
 
 
-/*Main ends here*/
+/* Section --- Main ends here */
+/* Side content starts here */
+/* Top Stories starts here */
+
+.side-content-container{
+	max-height: 100%;
+	overflow-y: hidden;
+	float: right;
+	width: 23.4375vw;
+}
+
+.side-titles{
+	color: #141414;
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28px;
+	text-size-adjust: 100%;
+	vertical-align: baseline;
+}
+
+#ftxfounder>a, #sixdead>a, #balitourists>a{
+	font-size: 18px;
+	line-height: 22px;
+	color: rgb(20, 20, 20);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#ftxfounder, #sixdead, #balitourists{
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+#ftxfounder:hover, #sixdead:hover, #balitourists:hover{
+	color: #B80000;
+	cursor: pointer;
+}
+
+#ftxfounder a:hover, #sixdead a:hover, #balitourists a:hover{
+	color: #B80000;
+	cursor: pointer;
+}
+
+.hoursAgo{
+	padding: 0px 20px;
+	line-height: 0px;
+}
+
+/* Top Stories ends here */
+/* Features starts here */
+
+.features{
+	padding-left: 3px;
+	margin-top: 70px;
+}
+
+.card{
+	margin-top: 20px;
+}
+
+.card p{
+	font-size: 20px;
+	padding: 10px 15px;
+	line-height: 24px;
+	color: rgb(84, 86, 88);
+
+}
+
+.card a:hover p{
+	text-decoration: underline;
+	color: #B80000;
+}
+
+/* Features ends here */
+/* Most Read starts here */
+
+.mostRead{
+	color: rgb(20, 20, 20);
+	column-gap: 16px;
+	display: grid;
+	font-weight: 400;
+	grid-template-columns: 300px;
+	margin-top: 40px;
+}
+
+.mostRead li{
+	color: #B80000;
+	display: list-item;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-bottom: 16px;
+	text-align: left;
+	margin-left: 70px;
+	margin-bottom: 50px;
+}
+
+.mostRead li a{
+	color: rgb(20, 20, 20);
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+	overflow-wrap: anywhere;
+	text-align: left;
+	text-decoration-color: rgb(20, 20, 20);
+	text-decoration-style: solid;
+	text-decoration-thickness: auto;
+	vertical-align: top;
+
+}
+
+.mostRead li a:visited{
+	color: rgb(84, 86, 88);
+}
+
+.mostRead li a:hover{
+	color: #B80000;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+/* Most Read ends here */
+/* Side content ends here */
+
+/* Related links starts here */
+
+.related-links-container{
+	margin-top: 40px;
+}
+
+.related-links-container ul{
+	list-style: none;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	margin: 10px 0px;
+}
+
+.flex-item{
+	color: rgb(20, 20, 20);
+	display: list-item;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: left;
+	vertical-align: baseline;
+	border: 1px solid #B80000;
+	padding: 10px;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.flex-item:hover{
+	background-color: #B80000;
+}
+
+.flex-item:hover a{
+	color: rgb(255, 255, 255);
+}
+
+.flex-item a{
+	color: rgb(20, 20, 20);
+	align-items: center;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	min-height: 42px;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+/* Related links ends here */
+/* Main ends here */
+
+/* Footer starts here */
+
+
+
+/* Footer ends here */
