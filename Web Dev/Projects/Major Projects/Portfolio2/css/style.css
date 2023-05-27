@@ -29,4 +29,74 @@ body{
 
 @media screen and (max-width:480px) {
     html{font-size: 45%}
+    .nav-container{display: none;}
+    .mobile-menu{display: block;}
+}
+
+header{
+    background-color: var(---shade);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.header-name{
+    margin: 1rem 1rem;
+    line-height: 2;
+}
+
+.header-text{
+    color: var(---tint);
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.nav-container{
+    /* margin-left: 60rem; */
+    position: absolute;
+    width: 70%;
+    right: 0;
+    float: right;
+}
+
+.nav-container nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-container nav ul li{
+    display: inline-block;
+}
+
+.nav-container nav ul li a{
+    text-decoration: none;
+    color: var(---tint);
+    font-weight: bold;
+}
+
+.nav-container nav ul li a:hover{
+    color: var(---white);
+}
+
+.nav-container nav ul li a:active{
+    color: var(---base-color);
+}
+
+/* Mobile hamburger menu starts from here */
+
+.mobile-menu{
+    display: none;
+    position: absolute;
+    width: 10%;
+    right: 0;
+    float: right;
+    color: var(---tint);
+}
+
+.close{
+    display: none;
 }
