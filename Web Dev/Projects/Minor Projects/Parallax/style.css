@@ -1,0 +1,140 @@
+:root{
+    ---base: #3a1ddf;
+    ---shade: #1d0f70;
+    ---tint: #9d8eef;
+    ---helper: #614ae5;
+    ---white: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(---shade);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+    background-color: var(---shade);
+    position: fixed;
+}
+
+@media screen and (max-width) {
+    html{font-size: 55%;}
+}
+
+@media screen and (max-width:480) {
+    html{font-size: 45%;}
+}
+
+.header-name-container{
+    width: 20vw;
+}
+
+.header-name{
+    font-weight: bold;
+    color: var(---tint);
+    padding-left: 2rem;
+}
+
+.nav-container{
+    display: flex;
+    align-items: baseline;
+    width: 80vw;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-items{
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: var(---tint);
+}
+
+.navbar li a:hover{
+    color: var(---white);
+}
+
+.navbar li a:active{
+    color: var(---helper)
+}
+
+/* Main starts from here */
+
+.para{
+    background-color: var(---shade);
+    color: var(---tint);
+    padding: 2rem;
+}
+
+.image1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/62279333e7dec1af606a5bee_parallax%20template.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.image2{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.image3{
+    background-image: url("https://img.freepik.com/free-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154643.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.image4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fff2lftqIE077pFAKU1Mhbcj8YFvBbMvpA&usqp=CAU");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.image5{
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_640.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.image6{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiB8giTN9Hj8QAEz4DVdCtqWbfnrKoZSo2nA&usqp=CAU");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
