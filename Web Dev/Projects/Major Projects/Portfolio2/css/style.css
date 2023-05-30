@@ -22,21 +22,12 @@ body{
     font-size: 1.6rem;
 }
 
-/* Media Queries for responsiveness */
-@media screen and (max-width:768px) {
-    html{font-size: 55%;}    
-}
-
-@media screen and (max-width:480px) {
-    html{font-size: 45%}
-    .nav-container{display: none;}
-    .mobile-menu{display: block;}
-}
 
 header{
     background-color: var(---shade);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 2rem;
     position: relative;
     width: 100%;
@@ -97,6 +88,29 @@ header{
     color: var(---tint);
 }
 
+.mobile-menu-container{
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: space-between; */
+    width: 30rem;
+    height: 30rem;
+}
+
 .close{
     display: none;
+}
+
+
+/* Media Queries for responsiveness */
+@media screen and (max-width:768px) {
+    html{font-size: 55%;}    
+}
+
+@media screen and (max-width:480px) {
+    html{font-size: 45%}
+    .nav-container{display: none;}
+    .mobile-menu{
+        display: block;
+        font-size: 3rem;
+    }
 }
