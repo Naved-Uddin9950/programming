@@ -108,11 +108,9 @@ header{
     cursor: pointer;
 }
 
-header{
-    cursor: pointer;
-}
 .close{
     display: none;
+    cursor: pointer;
 }
 
 
