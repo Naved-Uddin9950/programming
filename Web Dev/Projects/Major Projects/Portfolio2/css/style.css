@@ -22,6 +22,13 @@ body{
     font-size: 1.6rem;
 }
 
+p{
+    font-size: 1.6rem;
+}
+
+a{
+    font-size: 1.6rem;
+}
 
 header{
     background-color: var(---shade);
@@ -36,6 +43,7 @@ header{
 .header-name{
     margin: 1rem 1rem;
     line-height: 2;
+    z-index: 1;
 }
 
 .header-text{
@@ -96,6 +104,13 @@ header{
     height: 30rem;
 }
 
+.hamburger-menu{
+    cursor: pointer;
+}
+
+header{
+    cursor: pointer;
+}
 .close{
     display: none;
 }
@@ -103,14 +118,30 @@ header{
 
 /* Media Queries for responsiveness */
 @media screen and (max-width:768px) {
-    html{font-size: 55%;}    
+    html{font-size: 57.5%;}    
 }
 
 @media screen and (max-width:480px) {
-    html{font-size: 45%}
+    html{font-size: 52.5%}
     .nav-container{display: none;}
     .mobile-menu{
         display: block;
         font-size: 3rem;
+    }
+    .nav-container{
+        display: none;
+        background-color: var(---shade);
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        
+    }
+    .nav-container nav ul{
+        display: block;
+        margin: 20rem 0rem 1.5rem 0rem; /* Top, Right, Bottom, Left */
+    }
+    .nav-container nav ul li{
+        display: list-item;
+        line-height: 2;
     }
 }
