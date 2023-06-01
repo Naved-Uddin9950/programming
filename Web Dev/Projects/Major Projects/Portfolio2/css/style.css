@@ -110,7 +110,9 @@ header{
 
 .close{
     display: none;
+    font-size: 2.2rem;
     cursor: pointer;
+    z-index: 1;
 }
 
 
@@ -132,6 +134,7 @@ header{
         width: 100%;
         align-items: flex-start;
         justify-content: center;
+        z-index: 0;
         
     }
     .nav-container nav ul{
