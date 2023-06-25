@@ -1,7 +1,6 @@
 // var menu = document.getElementById("menubtn");
-var openMenu = document.getElementById("menubtn");
-var closeMenu = document.getElementById("closebtn");
-var nav = document.getElementById("navbar");
+// var openMenu = document.getElementById("menubtn");
+// var closeMenu = document.getElementById("closebtn");
 // var counter = false;
 
 
@@ -25,8 +24,7 @@ var nav = document.getElementById("navbar");
 //     }
 // }
 
-
-
-function openMenu(){
+function OpenMenu() {
+    var nav = document.getElementById("navbar");
     nav.style.display = "flex";
 }
