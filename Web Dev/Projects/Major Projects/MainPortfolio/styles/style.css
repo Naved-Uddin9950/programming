@@ -25,3 +25,7 @@
 .card{
     margin-bottom: 1rem;
 }
+
+.card{
+    height: 60vh;
+}
