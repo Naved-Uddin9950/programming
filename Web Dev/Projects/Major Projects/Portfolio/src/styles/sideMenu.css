@@ -1,0 +1,57 @@
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    height: 100vh;
+    background-color: rgb(13, 110, 253);
+    position: fixed;
+}
+
+@media screen and (max-width: 1124px) {
+    .menu-container{
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .menu-container{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .menu-container{
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .menu-container{
+        width: 40vw;
+    }
+}
+
+.menu-container ul{
+    list-style: none;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#myPic{
+    width: 80%;
+}
+
+.bio{
+    line-height: normal;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin: 10% 10% 0% -10%;
+}

@@ -1,0 +1,13 @@
+.navbar-container{
+    position: fixed;
+    width: 100%;
+}
+
+.searchButton:hover{
+    background-color: rgb(13, 110, 253);
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+#searchButton:active{
+    background-color: rgb(37, 124, 253);
+}
