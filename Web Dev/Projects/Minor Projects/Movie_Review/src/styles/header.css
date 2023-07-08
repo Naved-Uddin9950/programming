@@ -1,0 +1,6 @@
+.head-container {
+    width: 100%;
+    text-align: center;
+    background-color: var(--primaryColor);
+    margin-bottom: 2rem;
+}

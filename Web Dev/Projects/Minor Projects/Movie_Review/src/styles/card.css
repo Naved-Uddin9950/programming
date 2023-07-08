@@ -1,0 +1,37 @@
+.card-container {
+    width: 20%;
+    height: 400px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    background-color: var(--tint);
+    font-size: 1rem;
+}
+
+
+.card-container img {
+    height: 180px;
+    width: 100%;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+}
+
+.imdb {
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    margin: auto;
+    background-color: var(--btnColor);
+    /* I don't know why this variable is changing button style, maybe it's prebuilt in react I guess */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
