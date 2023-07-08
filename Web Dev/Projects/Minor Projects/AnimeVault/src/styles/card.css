@@ -1,0 +1,24 @@
+.card-container{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; */
+    width: 30%;
+    margin: auto;
+    /* height: 160px; */
+    z-index: 1;
+}
+
+.card {
+    margin: 2rem 0rem 0rem 0rem;
+    height: 200px;
+    overflow-x: hidden;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+
+.card-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
