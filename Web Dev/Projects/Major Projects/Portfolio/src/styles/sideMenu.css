@@ -1,10 +1,13 @@
 .menu-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 15vw;
     height: 100vh;
     background-color: rgb(13, 110, 253);
     position: fixed;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
+    margin-top: 12vh;
 }
 
 @media screen and (max-width: 1124px) {
@@ -42,6 +45,7 @@ img{
     height: 100%;
     border: 1px solid black;
     border-radius: 50%;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
 }
 
 #myPic{
@@ -54,4 +58,8 @@ img{
     padding: 0.5rem;
     margin-right: 1rem;
     margin: 10% 10% 0% -10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
 }
