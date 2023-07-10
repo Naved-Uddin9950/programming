@@ -21,9 +21,9 @@ function App() {
       <Header></Header>
       <div className="main-body">
         {
-          data.map((element) => {
+          data.map((element, index) => {
             return (  
-              <Card lvID={element.liveChartId} title={element.title} ogTitle={element.originalTitle} description={element.description} year={element.premiere} ogSite={element.officialWebsiteURL} twitter={element.twitterURL} format={element.format} source={element.source} ep={element.episodes} runTime={element.runTime} tags={element.tags} studio={element.studio} reso={element.externalResources}></Card>
+              <Card key={index} lvID={element.liveChartId} title={element.title} ogTitle={element.originalTitle} description={element.description} year={element.premiere} ogSite={element.officialWebsiteURL} twitter={element.twitterURL} format={element.format} source={element.source} ep={element.episodes} runTime={element.runTime} tags={element.tags} studio={element.studio} reso={element.externalResources}></Card>
             )
 
           })
