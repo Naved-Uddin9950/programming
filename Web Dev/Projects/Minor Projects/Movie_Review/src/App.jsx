@@ -17,9 +17,9 @@ function App() {
       <Header></Header>
       <div className="main-body">
         {
-          data.map((data) => {
+          data.map((data, index) => {
             return (
-              <Card title={data.movie} rating={data.rating} image={data.image} imdb={data.imdb_url}></Card>
+              <Card key={index} title={data.movie} rating={data.rating} image={data.image} imdb={data.imdb_url}></Card>
             )
           })
         }
