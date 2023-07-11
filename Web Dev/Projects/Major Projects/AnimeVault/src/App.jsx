@@ -23,7 +23,7 @@ function App() {
         {
           data.map((element, index) => {
             return (  
-              <Card key={index} lvID={element.liveChartId} title={element.title} ogTitle={element.originalTitle} description={element.description} year={element.premiere} ogSite={element.officialWebsiteURL} twitter={element.twitterURL} format={element.format} source={element.source} ep={element.episodes} runTime={element.runTime} tags={element.tags} studio={element.studio} reso={element.externalResources}></Card>
+              <Card key={index} title={element.title} year={element.premiere} ep={element.episodes} tags={element.tags}></Card>
             )
 
           })
