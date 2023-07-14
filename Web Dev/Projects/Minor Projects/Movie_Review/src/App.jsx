@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="main-container">
       <Header></Header>
-      <div className="main-body">
+      <div className="main-body flex">
         {
           data.map((data, index) => {
             return (

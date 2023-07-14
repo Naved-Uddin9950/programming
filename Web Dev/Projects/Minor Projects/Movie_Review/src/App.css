@@ -1,18 +1,18 @@
 .main-container{
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   width: 100%;
   background-color: var(--secondaryColor);
 }
 
 .main-body{
+  margin: 5px 0px;
+}
+
+.flex{
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 1rem;
+  gap: 5px
 }
