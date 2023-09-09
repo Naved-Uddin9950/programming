@@ -16,6 +16,7 @@ body {
     height: 100vh;
     background-image: url("https://images5.alphacoders.com/122/1226037.jpg");
     background-size: 100vw 100vh;
+    overflow: hidden;
 }
 
 /* main bottom task bar of our web operating system */
@@ -171,21 +172,21 @@ body {
 /* FADE IN LEFT ANIMATION */
 @keyframes fadeInLeft {
     from {
-      opacity: 0;
-      transform: translate3d(-100%, 0, 0);
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
     }
-  
+
     to {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
     }
-  }
-  
-  .fadeInLeft {
+}
+
+.fadeInLeft {
     animation-name: fadeInLeft;
-  }
-  
-  .animated {
+}
+
+.animated {
     animation-duration: 0.3s;
     animation-fill-mode: both;
-  }
+}

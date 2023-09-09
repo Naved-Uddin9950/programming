@@ -14,7 +14,7 @@ let isWidgetOpen = false;
 // Event listeners
 appsBtn.addEventListener("click", appsMenu); // opens & closes the Apps Menu/ Start Menu
 searchBtn.addEventListener("click", searchBar); // opens & closes Search Bar at the bottom of the taskbar
-widgetBtn.addEventListener("click", widgetMenu);
+widgetBtn.addEventListener("click", widgetMenu); // opens & closes Widget Menu at the bottom of the taskbar
 
 // Function to open & close the Apps menu/ Start Menu
 function appsMenu() {
