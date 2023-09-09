@@ -65,7 +65,7 @@ body {
 
 /* apps menu/ start menu starts from here */
 #apps-menu-container {
-    width: 30vw;
+    width: 25vw;
     height: 60vh;
     display: none;
     flex-direction: row;
@@ -96,6 +96,38 @@ body {
     color: black;
     display: none;
 }
+
+/* Widget menu starts from here */
+#widget-menu-container {
+    width: 30vw;
+    height: 60vh;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 8.3%;
+    /* left: 25%; */
+    z-index: 1;
+    margin: 0px 15px;
+    padding: 4px 8;
+    background-color: #2f3237;
+    overflow-y: scroll;
+
+}
+
+.widget {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 8px;
+}
+
+
+
+
+
+
+
 
 
 
