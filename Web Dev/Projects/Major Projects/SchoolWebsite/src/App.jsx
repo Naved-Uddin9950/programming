@@ -9,10 +9,14 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // Components imported from here
 import Header from '../components/Header'
+import HeroSection from '../components/HeroSection'
 
 function App() {
     return (
-        <Header></Header>
+        <>
+            <Header></Header>
+            <HeroSection></HeroSection>
+        </>
     )
 }
 
