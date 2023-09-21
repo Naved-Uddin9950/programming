@@ -10,3 +10,12 @@
     width: 32px;
     height: auto;
 }
+
+/* App Template */
+.appTemp{
+    width: 20vw;
+    height: 15vh;
+    resize: both;
+    border: 1px solid black;
+    overflow: hidden;
+}
