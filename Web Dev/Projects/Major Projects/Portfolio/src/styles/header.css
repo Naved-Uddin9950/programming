@@ -1,0 +1,24 @@
+.navbar-container{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.searchButton:hover{
+    background-color: rgb(13, 110, 253);
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+#searchButton:active{
+    background-color: rgb(37, 124, 253);
+}
+
+#searchField{
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.text-shadow{
+    text-shadow: 0.2rem 0.2rem 0.2rem;
+    font-weight: 700;
+}

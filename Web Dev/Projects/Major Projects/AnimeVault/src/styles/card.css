@@ -1,0 +1,29 @@
+.card-container{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; */
+    width: 30%;
+    margin: auto auto 2rem auto;
+    /* height: 160px; */
+    /* z-index: 1; */
+    height: 200px;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+    /* display: block; */
+}
+
+.card {
+    margin: 2rem 0rem 0rem 0rem;
+    /* overflow-y: hidden; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap;     */
+}
+
+.card-text{
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+    height: 200px;
+}

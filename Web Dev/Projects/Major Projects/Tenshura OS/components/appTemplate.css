@@ -1,0 +1,21 @@
+.app-container {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.app-container img {
+    margin: 0px 4px 0px 0px;
+    width: 32px;
+    height: auto;
+}
+
+/* App Template */
+.appTemp{
+    width: 20vw;
+    height: 15vh;
+    resize: both;
+    border: 1px solid black;
+    overflow: hidden;
+}

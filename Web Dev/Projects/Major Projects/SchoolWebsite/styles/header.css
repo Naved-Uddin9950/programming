@@ -1,0 +1,12 @@
+#logo{
+    width: 80px;
+}
+
+#searchBtn{
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+#searchBtn:active{
+    background-color: rgb(108, 108, 241);
+}

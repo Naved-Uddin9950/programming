@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenshura OS</title>
+    <!-- stylesheets starts from here -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="components/appTemplate.css">
+</head>
+
+<body>
+    <!-- main container of our operating system-->
+    <div id="main-container">
+        <!-- App menu/ Start menu -->
+        <div id="apps-menu-container">
+            <ul id="apps-menu">
+                <li>
+                    <div class="app-container" id="shadowTextApp">
+                        <img src="img/shadowTextLogo.png" alt="Image: Shadow Text Editor Logo">
+                        <p>Shadow Text Editor</p>
+                    </div>
+                </li>
+                <li>App 2</li>
+                <li>App 3</li>
+                <li>App 4</li>
+                <li>App 5</li>
+                <li>App 6</li>
+                <li>App 7</li>
+                <li>App 8</li>
+                <li>App 9</li>
+                <li>App 10</li>
+                <li>App 11</li>
+                <li>App 12</li>
+            </ul>
+        </div>
+
+        <!-- Widget Menu -->
+        <div id="widget-menu-container">
+            <div class="widget">1</div>
+            <div class="widget">2</div>
+            <div class="widget">3</div>
+            <div class="widget">4</div>
+            <div class="widget">5</div>
+            <div class="widget">6</div>
+            <div class="widget">7</div>
+            <div class="widget">8</div>
+            <div class="widget">9</div>
+            <div class="widget">10</div>
+            <div class="widget">11</div>
+            <div class="widget">12</div>
+        </div>
+        <!-- task bar starts from here -->
+        <div class="taskbar">
+            <!-- left content of the task bar -->
+            <ul id="taskbar-list-left">
+                <li><button type="button" id="appsBtn"><i class="fa-solid fa-house"></i></button></li>
+                <li><button type="button" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                <li><input type="search" name="searhBar" id="searchBar" placeholder="Search"></li>
+                <li><button type="button" id="widgetBtn"><i class="fa-brands fa-d-and-d"></i></button></li>
+            </ul>
+
+            <!-- right content of the task bar -->
+            <ul id="taskbar-list-right">
+                <li><button type="button"><i class="fa-solid fa-cloud-sun"></i></button></li>
+                <li><button type="button"><i class="fa-regular fa-newspaper"></i></button></li>
+                <li><button type="button"><i class="fa-solid fa-volume-high"></i></button></li>
+                <li><button type="button"><i class="fa-solid fa-calendar-days"></i></button></li>
+                <li><button type="button"><i class="fa-solid fa-message"></i></button></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- scripts starts from here -->
+    <script src="js/index.js"></script>
+    <script src="components/appTemplate.js"></script>
+    <script src="https://kit.fontawesome.com/8e0a766b60.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
