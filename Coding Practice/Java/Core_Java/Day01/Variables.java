@@ -1,3 +1,5 @@
+// Day 01 of Java + DSA
+
 // Homework problem 01 : 
 // Try to declare meaningful variables of each type. Eg - a variable
 // named age should be a numeric type (int or float) not byte
