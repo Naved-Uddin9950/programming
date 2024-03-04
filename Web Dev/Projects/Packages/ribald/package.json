@@ -1,0 +1,30 @@
+{
+  "name": "ribald",
+  "version": "1.0.0",
+  "description": "Ribald is a lightweight and efficient Node.js package designed for detecting vulgar and obscene words within strings. It returns an array containing these offensive terms found in the input string. With its comprehensive list of offensive terms, Ribald empowers developers to filter and moderate user-generated content, ensuring a cleaner and more appropriate user experience for applications ranging from social media platforms to chatbots. Easily integrate Ribald into your projects to enforce content standards and uphold community guidelines.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vulgar",
+    "Obscene",
+    "Profanity",
+    "Filter",
+    "Moderation",
+    "Content",
+    "Detection",
+    "Node.js",
+    "NPM",
+    "Offensive",
+    "Censorship",
+    "Chat",
+    "Social",
+    "Media",
+    "Language",
+    "Wordlist"
+  ],
+  "author": "Naved Uddin",
+  "license": "ISC"
+}
