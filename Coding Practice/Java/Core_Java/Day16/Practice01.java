@@ -27,13 +27,13 @@ public class Practice01 {
                 System.out.printf("%d, ", mat[i][right]);
             }
             right--;
-            if(left <= right) {
+            if(top <= bottom) {
                 for(int i=right; i>=left; i--) {
                     System.out.printf("%d, ", mat[bottom][i]);
                 }
                 bottom--;
             }
-            if(top <= bottom) {
+            if(left <= right) {
                 for(int i=bottom; i>=top; i--) {
                     System.out.printf("%d, ", mat[i][left]);
                 }
