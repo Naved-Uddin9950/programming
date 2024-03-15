@@ -1,0 +1,51 @@
+{
+    "Monday" : {
+        "date" : "04 March 2024",
+        "temperature" : "21 °C",
+        "conditions" : "Partially Cloudy",
+        "humidity" : "21%"
+
+    },
+    "Tuesday" : {
+        "date" : "05 March 2024",
+        "temperature" : "23 °C",
+        "conditions" : "Cold",
+        "humidity" : "25%"
+
+    },
+    "Wednesday" : {
+        "date" : "06 March 2024",
+        "temperature" : "16 °C",
+        "conditions" : "Cloudy",
+        "humidity" : "12%"
+
+    },
+    "Thursday" : {
+        "date" : "07 March 2024",
+        "temperature" : "26 °C",
+        "conditions" : "Rainy",
+        "humidity" : "19%"
+
+    },
+    "Friday" : {
+        "date" : "08 March 2024",
+        "temperature" : "28 °C",
+        "conditions" : "Sunny",
+        "humidity" : "37%"
+
+    },
+    "Saturday" : {
+        "date" : "09 March 2024",
+        "temperature" : "26 °C",
+        "conditions" : "Clear",
+        "humidity" : "25%"
+
+    },
+    "Sunday" : {
+        "date" : "10 March 2024",
+        "temperature" : "29 °C",
+        "conditions" : "Sunny",
+        "humidity" : "27%"
+
+    }
+}
