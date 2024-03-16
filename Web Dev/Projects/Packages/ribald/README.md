@@ -35,7 +35,15 @@ This will output an array containing all detected vulgar words from the input st
 
 ```console.log(detectedWords);```
 
-// Output: ["fuck", "asshole", "slut"]
+```
+// Output:
+{
+    "original": "This is a test string containing vulgar words like fuck, asshole, and slut.",
+   "words": ["fuck", "asshole", "slut"],
+   "count": 3,
+   "filter": "This is a test string containing vulgar words like ****, *******, and ****."
+} 
+```
 
 
 ## List of Words

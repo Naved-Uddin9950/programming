@@ -10,19 +10,40 @@ let words = [
     "Titty", "Turd", "Wank", "Ballbag", "Beef Curtains", "Bellend", "Bollocking", 
     "Bush", "Cum", "Dingleberry", "Dong", "Ejaculate", "Flange", "Glans", "Gonads", 
     "Goo", "Handjob", "Helmet", "Knobhead", "Meat curtains", "Muff", "Pecker", "Prude", 
-    "Pube", "Pussy-whipped", "Raunchy", "Scat", "Semen", "Smegma", "Wench"
-  ];
+    "Pube", "Pussy-whipped", "Raunchy", "Scat", "Semen", "Smegma", "Wench",
+    // Hinglish cuss/vulgar words
+    "lode", "loda", "chut", "choot", "bhosda", "ma chuda", "lun", "lund", "randi", "randwa", 
+    "gaand", "gand", "chod", "chodu", "chodna", "harami", "haramzada", "kutte", "kutta", 
+    "kamine", "kamina", "behenchod", "madarchod", "gandu", "saala", "saali", "gaandu", 
+    "kuttiya", "bhosdi", "bhadwa", "rundi", "gandu", "chakka", "chakke", "hijra", "hijre", 
+    "chinal", "chinaal", "chutiya", "chutiyapa", "loda", "lodi", "hijdo", "londiya", 
+    "lund", "lundya", "chootiya", "chootiyapa"
+];
+
 
 let ribald = (e) => {
-    let element = e.toLowerCase();  
-    let detect = [];
+    let element = e.toLowerCase(); // converts all elements to lowercase 
+    let detect = []; // will store detected cuss words
     for(let i=0; i<words.length; i++) {
         let word = words[i].toLowerCase();
         if(element.includes(word)) {
             detect.push(word);
         }
     }
-    return detect;
+    let filt = element;
+    for(let i=0; i<detect.length; i++) {
+        if(element.includes(detect[i])) {
+            filt = filt.replaceAll(detect[i], "****");
+        }
+    }
+
+    let json = {
+        "original" : element,
+        "words" : detect,
+        "count" : detect.length,
+        "filter" : filt
+    }
+    return json;
 }
 
 export default ribald;
