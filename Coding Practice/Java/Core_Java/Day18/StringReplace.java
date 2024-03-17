@@ -3,6 +3,7 @@
 // Example :
 //          original = “eabcdef’ ; result = “iabcdif”
 //          Original = “xyz” ; result = “xyz
+//
 
 package Core_Java.Day18;
 import java.util.Scanner;
