@@ -1,0 +1,5 @@
+
+Hello World !This is second line of my text file
+This one is my new project, a mini text editor built in node js
+I am now saving this file ctrl + s
+
