@@ -41,7 +41,7 @@ body {
 .user-info-list {
     list-style-type: none;
     width: 50%;
-    text-align: justify;
+    text-align: left;
     margin-top: 20px;
     line-height: 2;
 }
@@ -83,6 +83,22 @@ body {
 
 .location-info-list {
     list-style-type: none;
-    text-align: justify;
+    text-align: left;
     line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .left-container,
+    .right-container {
+        width: 100%;
+        margin-left: 0;
+        border-right: none;
+    }
+    .location-info-list {
+        list-style-type: none;
+        width: 50%;
+        text-align: justify;
+        margin-top: -50px;
+        line-height: 2;
+    }
 }

@@ -25,11 +25,11 @@ async function fetchAPI() {
 
 	profile.setAttribute('src', data.picture.large);
 
-	fname.innerHTML = `Full Name : ${data.name.title} ${data.name.first} ${data.name.last}`;
+	fname.innerHTML = `Name : ${data.name.title} ${data.name.first} ${data.name.last}`;
 	age.innerHTML = `Age : ${data.dob.age}`
 	gen.innerHTML = `Gender : ${data.gender}`;
 	user.innerHTML = `Username : ${data.login.username}`;
-	email.innerHTML = `Email Address : ${data.email}`;
+	email.innerHTML = `Email : ${data.email}`;
 	pass.innerHTML = `Password : ${data.login.password}`;
 	phone.innerHTML = `Phone : ${data.phone}`;
 	address.innerHTML = `Address : ${data.location.street.number}, ${data.location.street.name}, ${data.location.city}`;
