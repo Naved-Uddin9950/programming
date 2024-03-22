@@ -1,5 +1,5 @@
 // Practice 02 :
-// Selection Sort Algorithm
+// Selection Sort Algorithm.
 
 package Core_Java.Day23;
 

@@ -1,5 +1,5 @@
 // Practice 01 :
-// Bubble Sort Algorithm
+// Bubble Sort Algorithm.
 
 package Core_Java.Day23;
 

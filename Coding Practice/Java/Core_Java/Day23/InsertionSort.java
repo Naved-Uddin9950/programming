@@ -1,5 +1,5 @@
 // Homework problem 01 :
-// Program of Insertion Sort Algorithm
+// Program of Insertion Sort Algorithm.
 
 package Core_Java.Day23;
 
